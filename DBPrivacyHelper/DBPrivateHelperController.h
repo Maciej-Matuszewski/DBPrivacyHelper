@@ -49,6 +49,8 @@ typedef void (^DBPrivateHelperCompletionBlock)();
  */
 @property (nonatomic, copy) DBPrivateHelperCompletionBlock didDismissViewController;
 
+- (void)dismissViewController;
+
 /**
  *  Create an instance of DBPrivateHelperController
  *

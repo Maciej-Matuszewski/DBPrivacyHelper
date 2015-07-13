@@ -128,6 +128,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)dismissViewController{
+    [self dismissViewControllerAnimated:YES completion:self.didDismissViewController];
+}
 
 #pragma mark - Private methods
 
